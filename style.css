@@ -1,0 +1,159 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fff0e1, #ffe3e3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  background-color: #ffffffdd;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+/* Brand with colorful gradient text */
+.brand {
+  background: linear-gradient(45deg, #ff8a5c, #ff6b81, #fcb045, #e96443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Heading */
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Display */
+#display {
+  font-size: 2.8em;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background-color: #fff9f6;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.04);
+  color: #333;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+/* All buttons SAME color */
+.buttons button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff8a5c, #ff6b81);
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 107, 129, 0.2);
+}
+
+.buttons button:hover {
+  opacity: 0.92;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(255, 107, 129, 0.3);
+}
+
+/* Lap section */
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+#laps {
+  list-style: none;
+  max-height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  padding-right: 10px;
+}
+
+#laps li {
+  background-color: #fdf2ee;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  font-size: 0.95em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+}
+
+#laps li:hover {
+  background-color: #fae3db;
+}
+
+/* Brand: mimic SkillCraft logo colors */
+.brand {
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.brand .skill {
+  color: #333333; /* neutral black/gray for "Skill" */
+}
+
+.brand .craft {
+  background: linear-gradient(90deg, #EA4335, #FBBC05, #34A853, #4285F4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Brand headline styling */
+.brand {
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.brand .letter {
+  font-weight: bold;
+}
+
+/* Colors inspired by your logo */
+.red {
+  color: #EA4335; /* Google red */
+}
+
+.yellow {
+  color: #FBBC05; /* Google yellow */
+}
+
+.green {
+  color: #34A853; /* Google green */
+}
+
+.blue {
+  color: #4285F4; /* Google blue */
+}
